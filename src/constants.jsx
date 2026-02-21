@@ -30,7 +30,7 @@ import vpsLogo from "./assets/education_logo/bseb.jpg";
 
 // Project Section Logo's
 import portfolioPage from "./assets/work_logo/my2ndPortfolio.png";
-import githubSearch from "./assets/work_logo/githubSearch.JPG"
+import githubSearch from "./assets/work_logo/githubSearch.jpg"
 
 export const SkillsInfo = [
   {
