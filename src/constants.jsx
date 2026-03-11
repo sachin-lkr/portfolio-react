@@ -30,7 +30,7 @@ import vpsLogo from "./assets/education_logo/bseb.jpg";
 
 // Project Section Logo's
 import portfolioPage from "./assets/work_logo/my2ndPortfolio.png";
-import githubSearch from "./assets/work_logo/githubSearch.jpg";
+import githubImage from "./assets/work_logo/githubSearch.jpg"
 import newsapp from "./assets/work_logo/newsApp.png";
 import foodhouse from "./assets/work_logo/foodhouseHome.png"
 import travel from "./assets/work_logo/travel.png"
@@ -126,7 +126,7 @@ export const projects = [
     title: "GitHub Profile Search App (Vanilla JS)",
     description:
       "A responsive web application that fetches GitHub user data using GitHub API. Displays profile details like avatar, repositories, followers, and following with real-time search functionality.",
-    image: githubSearch,
+    image: githubImage,
     tags: ["HTML", "CSS", "JavaScript", "GitHub API"],
     github: "https://github.com/sachin-lkr/github-profile-search",
     webapp: "https://sachin-lkr.github.io/github-profile-search/",
