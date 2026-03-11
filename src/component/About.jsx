@@ -61,7 +61,7 @@ const About = () => {
             <a
             data-aos="fade-up"
             data-aos-duration="1000"
-            href="https://drive.google.com/file/d/1dqT7xdKKqki45esxBDj2wQdC5YdeVTj3/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1dqT7xdKKqki45esxBDj2wQdC5YdeVTj3/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
