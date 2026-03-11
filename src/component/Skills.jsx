@@ -1,6 +1,6 @@
 // src/components/Skills/Skills.jsx
 import React from "react";
-import { SkillsInfo } from "../../constants";
+import { SkillsInfo } from "../constants";
 import Tilt from "react-parallax-tilt";
 import AOS from "aos";
 import "aos/dist/aos.css";

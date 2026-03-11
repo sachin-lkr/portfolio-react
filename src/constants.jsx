@@ -30,7 +30,11 @@ import vpsLogo from "./assets/education_logo/bseb.jpg";
 
 // Project Section Logo's
 import portfolioPage from "./assets/work_logo/my2ndPortfolio.png";
-import githubSearch from "./assets/work_logo/githubSearch.JPG"
+import githubSearch from "./assets/work_logo/githubSearch.jpg";
+import newsapp from "./assets/work_logo/newsApp.png";
+import foodhouse from "./assets/work_logo/foodhouseHome.png"
+import travel from "./assets/work_logo/travel.png"
+
 
 export const SkillsInfo = [
   {
@@ -103,13 +107,23 @@ export const projects = [
     title: "Personal Portfolio (Vanilla JS)",
     description: "Built a fully responsive without any framework",
     image: portfolioPage,
-    tags: ["HTML", "CSS", "JavaScript"],
+    tags: ["HTML", "CSS", "JavaScript","Toastify","EmailJS"],
     github: "https://github.com/sachin-lkr/sachin-lkr.github.io",
     webapp: "https://sachin-lkr.github.io/",
   },
   {
     id: 1,
-    title: "GitHub Profile Search App",
+    title: "FoodHouse E-commerce Website (React)",
+    description:
+      "A modern and responsive e-commerce website built with React and Tailwind CSS. Users can browse food items, view product details, add items to cart and wishlist, and enjoy a smooth shopping experience with clean UI and reusable components.",
+    image: foodhouse,
+    tags: ["React", "Tailwind CSS", "Redux Toolkit","React Toastify","React Router"],
+    github: "https://github.com/sachin-lkr/FoodHouse",
+    webapp: "https://food-house-lake.vercel.app//",
+  },
+  {
+    id: 2,
+    title: "GitHub Profile Search App (Vanilla JS)",
     description:
       "A responsive web application that fetches GitHub user data using GitHub API. Displays profile details like avatar, repositories, followers, and following with real-time search functionality.",
     image: githubSearch,
@@ -117,4 +131,24 @@ export const projects = [
     github: "https://github.com/sachin-lkr/github-profile-search",
     webapp: "https://sachin-lkr.github.io/github-profile-search/",
   },
+  {
+  id: 3,
+  title: "Travel Website (React)",
+  description:
+    "A modern and responsive travel website that showcases popular destinations and travel packages. Built with HTML, CSS, and JavaScript with smooth scroll animations using AOS to enhance user experience.",
+  image: travel,
+  tags: ["HTML", "CSS", "JavaScript", "AOS"],
+  github: "https://github.com/sachin-lkr/explore-travel-website",
+  webapp: "https://explore-travel-website.vercel.app/"
+},
+{
+  id: 4,
+  title: "News App (React)",
+  description:
+    "A responsive news web application that fetches the latest news using News API. Users can browse different categories like technology, sports, and business with real-time updates and a clean user interface.",
+  image: newsapp,
+  tags: ["React", "CSS", "News API"],
+  github: "https://github.com/sachin-lkr/react-news-api-app",
+  webapp: "https://react-news-api-app.vercel.app/"
+},
 ];

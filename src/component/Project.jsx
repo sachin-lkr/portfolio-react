@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { projects } from "../../constants";
+import  { useState } from "react";
+import { projects } from "../constants";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";

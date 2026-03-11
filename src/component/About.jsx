@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Tilt from "react-parallax-tilt";
-import profileImage from "../../assets/profile.jpg";
+import profileImage from "../assets/profile.jpg";
 
 const About = () => {
   useEffect(() => {

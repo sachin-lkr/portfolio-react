@@ -1,5 +1,5 @@
 import React from "react";
-import { education } from "../../constants"; // Import the education data
+import { education } from "../constants"; // Import the education data
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -56,9 +56,9 @@ const Education = () => {
               ml-8 lg:ml-0 transform transition-transform duration-300 hover:scale-105`}
             >
               {/* Flex container for image and text */}
-              <div className="flex items-center space-x-6">
+              <div className="flex   items-center space-x-6">
                 {/* School Logo/Image */}
-                <div className="w-24 h-16 bg-white rounded-md overflow-hidden">
+                <div className="w-24 h-16 bg-white  rounded-md overflow-hidden">
                   <img
                     src={edu.img}
                     alt={edu.school}
