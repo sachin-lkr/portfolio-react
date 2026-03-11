@@ -122,16 +122,6 @@ export const projects = [
     webapp: "https://food-house-lake.vercel.app//",
   },
   {
-    id: 2,
-    title: "GitHub Profile Search App (Vanilla JS)",
-    description:
-      "A responsive web application that fetches GitHub user data using GitHub API. Displays profile details like avatar, repositories, followers, and following with real-time search functionality.",
-    image: githubImage,
-    tags: ["HTML", "CSS", "JavaScript", "GitHub API"],
-    github: "https://github.com/sachin-lkr/github-profile-search",
-    webapp: "https://sachin-lkr.github.io/github-profile-search/",
-  },
-  {
   id: 3,
   title: "Travel Website (React)",
   description:
