@@ -24,13 +24,13 @@ import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
 import csharpLogo from "./assets/tech_logo/csharp.png";
 
 // Education Section Logo's
-import glaLogo from "./assets/education_logo/munger.png";
-import bsaLogo from "./assets/education_logo/bseb.jpg";
-import vpsLogo from "./assets/education_logo/bseb.jpg";
+import mungerLogo from "./assets/education_logo/munger.png";
+import bsebLogo from "./assets/education_logo/bseb.jpg";
+
 
 // Project Section Logo's
 import portfolioPage from "./assets/work_logo/my2ndPortfolio.png";
-import githubImage from "./assets/work_logo/githubSearch.jpg"
+import githubImage from "./assets/work_logo/github"
 import newsapp from "./assets/work_logo/newsApp.png";
 import foodhouse from "./assets/work_logo/foodhouseHome.png"
 import travel from "./assets/work_logo/travel.png"
@@ -75,7 +75,7 @@ export const SkillsInfo = [
 export const education = [
   {
     id: 0,
-    img: glaLogo,
+    img: mungerLogo,
     school: "Internation college Ghosait, Lakhisari (Munger university)",
     date: "2023 - 2026",
     desc: "Prsuing BCA with strong interest in Frontend Development.Worked on multiple web projects using React, Tailwind CSS and JavaScript.Developed problem-solving and practical coding skills.",
@@ -83,7 +83,7 @@ export const education = [
   },
   {
     id: 1,
-    img: bsaLogo,
+    img: bsebLogo,
     school: "BSEB(S.R.S +2 H/S Persaban, Lakhisarai)",
     date: "2017 - 2019",
     grade: "67.8%",
@@ -92,7 +92,7 @@ export const education = [
   },
   {
     id: 2,
-    img: vpsLogo,
+    img: bsebLogo,
     school: "BSEB(U.M.S. Surari (Lakhisarai))",
     date: "2016 - 2017",
     grade: "60%",
@@ -120,6 +120,16 @@ export const projects = [
     tags: ["React", "Tailwind CSS", "Redux Toolkit","React Toastify","React Router"],
     github: "https://github.com/sachin-lkr/FoodHouse",
     webapp: "https://food-house-lake.vercel.app//",
+  },
+    {
+    id: 2,
+    title: "GitHub Profile Search App (Vanilla JS)",
+    description:
+      "A responsive web application that fetches GitHub user data using GitHub API. Displays profile details like avatar, repositories, followers, and following with real-time search functionality.",
+    image: githubImage,
+    tags: ["HTML", "CSS", "JavaScript", "GitHub API"],
+    github: "https://github.com/sachin-lkr/github-profile-search",
+    webapp: "https://sachin-lkr.github.io/github-profile-search/",
   },
   {
   id: 3,
