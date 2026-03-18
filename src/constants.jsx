@@ -30,10 +30,10 @@ import bsebLogo from "./assets/education_logo/bseb.jpg";
 
 // Project Section Logo's
 import portfolioPage from "./assets/work_logo/my2ndPortfolio.png";
-import githubImage from "./assets/work_logo/github"
+import githubImage from "./assets/work_logo/github.jpg";
 import newsapp from "./assets/work_logo/newsApp.png";
-import foodhouse from "./assets/work_logo/foodhouseHome.png"
-import travel from "./assets/work_logo/travel.png"
+import foodhouse from "./assets/work_logo/foodhouseHome.png";
+import travel from "./assets/work_logo/travel.png";
 
 
 export const SkillsInfo = [
