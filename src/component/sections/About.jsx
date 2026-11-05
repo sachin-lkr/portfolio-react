@@ -35,15 +35,17 @@ const About = () => {
 
             <TypeAnimation
               sequence={[
-                "Front-end Developer",
-                2000,
-                "React Developer",
-                2000,
-                "UI/UX Designer",
-                2000,
-                "Coder",
-                2000,
-              ]}
+                     "MERN Stack Developer",
+                     2000,
+                     "Full Stack JavaScript Developer",
+                     2000,
+                     "Frontend Developer",
+                     2000,
+                     "React.js Developer",
+                     2000,
+                     "Node.js Developer",
+                     2000,
+                    ]}
               speed={50}
               repeat={Infinity}
               cursor={true}
@@ -52,16 +54,14 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p data-aos="zoom-in" className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            Frontend Developer with experience working on 8+ projects, building
-            responsive and scalable web applications using React.js, JavaScript,
-            HTML, and CSS. 
+           Enthusiastic and motivated MERN Stack Developer with hands-on project experience in JavaScript, React.js, Node.js, Express.js, and MongoDB. Skilled in building responsive web applications, REST APIs, and JWT-based authentication. Eager to learn, grow, and contribute to real-world development projects.
           </p>
           {/* Resume and project Button */}
           <div className="lg:space-x-4">
             <a
             data-aos="fade-up"
             data-aos-duration="1000"
-            href="https://drive.google.com/file/d/1dqT7xdKKqki45esxBDj2wQdC5YdeVTj3/view?usp=sharing"
+            href="https://drive.google.com/file/d/1o9DYcEAQKPuaWPSIb9zp_RBGQLBUsBfb/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"

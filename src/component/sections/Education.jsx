@@ -1,5 +1,5 @@
 import React from "react";
-import { education } from "../constants"; // Import the education data
+import { education } from "../../constants"; // Import the education data
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";

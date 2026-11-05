@@ -1,8 +1,6 @@
 import  { useState } from "react";
-import { projects } from "../constants";
-import AOS from "aos";
+import { projects } from "../../constants";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
 
 const Project = () => {
   const [selectedProject, setSelectedProject] = useState(null);
