@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "./component/Navbar";
-import About from "./component/About";
-import Skills from "./component/Skills";
-import Work from "./component/Project";
-import Education from "./component/Education";
-import Contact from "./component/Contact";
-import Footer from "./component/Footer";
-import BlurBlob from './component/BlurBlob';
+import Navbar from "./component/common/Navbar";
+import About from "./component/sections/About";
+import Skills from "./component/common/Skills";
+import Work from "./component/sections/Project";
+import Education from "./component/sections/Education";
+import Contact from "./component/sections/Contact";
+import Footer from "./component/common/Footer";
+import BlurBlob from './component/common/BlurBlob';
 
 const App = () => {
   return (
